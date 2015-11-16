@@ -1,0 +1,17 @@
+http://www.thejavageek.com/2015/01/09/configure-wildfly-eclipse/
+
+http://www.thejavageek.com/2015/01/08/database-module-wildfly/
+
+http://www.thejavageek.com/2015/01/09/creating-jsf-ejb-jpa-application-using-eclipse-wildfly/
+
+
+Voilà les instructions pour installer l'environnement de développement:
+
+    Télécharger eclipse Luna ou Kepler version Java ee: http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr1
+    Télécharger Wildfly 8.1 final http://wildfly.org/downloads/
+    installer le plugin jboss tools (attention il faut installer la version qui correspond à la version de votre eclipse)
+    installer une base de données MySql
+    Télécharger et décompresser mysql.zip en suivant le lien mysql for wildfly sur e-campus.
+    copier le répertoire mysql dans wildfly-8.x.x/modules/system/layer/base/com
+
+

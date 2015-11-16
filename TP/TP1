@@ -1,0 +1,23 @@
+TP : EJB Entity/ EJB Session /JSF
+Dans cette séance vous allez implémenter un EJB Entity représentant la table employee de la base de données à créer.
+
+Vous devrez dans ce projet JPA créer une connexion avec la base de données afin de pouvoir créer votre classe Bean Entity depuis la table employee de votre base de données.
+
+Une fois votre EntityBean créé, vous pourrez créer un EJB Session pour permettre à une page JSF d'accéder à votre Bean Entity et ainsi à vos données de votre table employee.
+Vous réaliserez par exemple une page JSF pour la saisie d'un nouvel employé, une page JSF pour visualiser la liste des employés et une dernière pour modifier un employé.
+Vous devrez au final créer un projet Entreprise Application (EAR) pour assembler le tout avant de le déployer sous Jboss.
+
+Remarques générales :
+1) Pour implémenter un EJB Session avec Eclipse vous devrez créer un projet EJB , ce projet sera par la suite référencé ailleurs par le JAR de votre EJB et rattaché obligatoirement dans un projet dit "EAR".
+Dans ce projet vous pourrez ensuite créer un EJB Session
+
+2) Pour implémenter un EJB Entity avec Eclipse vous devrez créer un projet JPA. Ce projet sera référencé ailleurs par le JAR contenant les classes de cet Entity Bean.
+
+
+3) Pour pouvoir tester l'accès à vos EJB, vous devrez créer un projet Web Dynamique dans lequel vous pourrez créer vos pages JSF.
+
+4) Enfin pour pouvoir déployer vos EJBs et projets Web vous devrez créer enfin un projet "Java Enterprise Application" qui fera référence aux projets précédents.
+
+Connecté sous le nom « Nicolas Sagon » (Déconnexion)
+4-9-COMSC5-MAJ @2015
+
